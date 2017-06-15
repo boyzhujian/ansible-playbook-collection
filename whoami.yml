@@ -1,5 +1,5 @@
 ---
-- hosts: relay2
+- hosts: gdcwmp
   tasks:
    - name: whoami execute
      shell: whoami
