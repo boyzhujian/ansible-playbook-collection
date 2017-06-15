@@ -1,0 +1,8 @@
+---
+- hosts: gdcwmp
+  tasks:
+   - name: whoami execute
+     shell: whoami
+     register: out
+
+   - debug: var=out.stdout_lines
