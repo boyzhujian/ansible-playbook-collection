@@ -1,5 +1,5 @@
 ---
-- hosts: gdcwmp
+- hosts: logon
   tasks:
    - name: whoami execute
      shell: whoami
