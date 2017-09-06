@@ -1,2 +1,7 @@
-# semaphore
-ansibleplaybook for semaphore test
+
+
+
+
+ansible <host> -i <inventory-file> -m <module>
+
+ansible all -m ping 
