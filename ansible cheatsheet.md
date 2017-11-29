@@ -1,5 +1,7 @@
 
-Subsystem sftp internal-sftp
+Subsystem sftp internal-sftp or 
+[test]
+hostname.com.cn  ansible_connection=ssh
 
 ansible <host> -i <inventory-file> -m <module>
 
