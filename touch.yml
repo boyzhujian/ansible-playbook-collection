@@ -1,0 +1,5 @@
+- tasks:
+      - name: Create file
+        file:
+            path: /tmp/zz
+            state: touch
