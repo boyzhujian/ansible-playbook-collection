@@ -1,4 +1,6 @@
-- tasks:
+---
+- hosts: all
+  tasks:
       - name: Create file
         file:
             path: /tmp/zz
