@@ -1,0 +1,8 @@
+  - hosts: '{{ host }}'
+    user: '{{ user }}'
+    gather_facts: no
+    tasks:
+    - shell: yum info '{{ pkg }}'
+      register: yum_output
+
+    - debug: msg="the yum output was {{ yum_output.stdout }}"
